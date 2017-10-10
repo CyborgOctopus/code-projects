@@ -19,8 +19,8 @@ def sort_in_ascending_order(lst):
       i -= 1
   return lst
     
-#if __name__ == "__main__":
-your_list = build_ints_list()
-print("Your list: ", your_list)
-your_list = sort_in_ascending_order(your_list)
-print ("Your sorted list: ", your_list)
+if __name__ == "__main__":
+  your_list = build_ints_list()
+  print("Your list: ", your_list)
+  your_list = sort_in_ascending_order(your_list)
+  print ("Your sorted list: ", your_list)
